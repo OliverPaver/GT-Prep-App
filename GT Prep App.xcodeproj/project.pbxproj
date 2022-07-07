@@ -14,6 +14,9 @@
 		043A25C828764FBB00D02718 /* GT_Prep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25C728764FBB00D02718 /* GT_Prep_AppTests.swift */; };
 		043A25D228764FBB00D02718 /* GT_Prep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25D128764FBB00D02718 /* GT_Prep_AppUITests.swift */; };
 		043A25D428764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25D328764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift */; };
+		043A25E228764FDC00D02718 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25E128764FDC00D02718 /* TestModel.swift */; };
+		043A25E42876501000D02718 /* GTManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25E32876501000D02718 /* GTManagerVM.swift */; };
+		043A25F128766AF000D02718 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25F028766AF000D02718 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		043A25CD28764FBB00D02718 /* GT Prep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GT Prep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A25D128764FBB00D02718 /* GT_Prep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Prep_AppUITests.swift; sourceTree = "<group>"; };
 		043A25D328764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Prep_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		043A25E128764FDC00D02718 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		043A25E32876501000D02718 /* GTManagerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTManagerVM.swift; sourceTree = "<group>"; };
+		043A25F028766AF000D02718 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		043A25B528764FB900D02718 /* GT Prep App */ = {
 			isa = PBXGroup;
 			children = (
+				043A25EB2876552000D02718 /* Views */,
+				043A25E62876503E00D02718 /* ViewModels */,
+				043A25E028764FC800D02718 /* Models */,
 				043A25B628764FB900D02718 /* GT_Prep_AppApp.swift */,
-				043A25B828764FB900D02718 /* ContentView.swift */,
 				043A25BA28764FBB00D02718 /* Assets.xcassets */,
 				043A25BC28764FBB00D02718 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				043A25D328764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift */,
 			);
 			path = "GT Prep AppUITests";
+			sourceTree = "<group>";
+		};
+		043A25E028764FC800D02718 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043A25E128764FDC00D02718 /* TestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		043A25E62876503E00D02718 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				043A25E32876501000D02718 /* GTManagerVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		043A25EB2876552000D02718 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043A25B828764FB900D02718 /* ContentView.swift */,
+				043A25F028766AF000D02718 /* QuestionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A25E228764FDC00D02718 /* TestModel.swift in Sources */,
+				043A25E42876501000D02718 /* GTManagerVM.swift in Sources */,
+				043A25F128766AF000D02718 /* QuestionView.swift in Sources */,
 				043A25B928764FB900D02718 /* ContentView.swift in Sources */,
 				043A25B728764FB900D02718 /* GT_Prep_AppApp.swift in Sources */,
 			);

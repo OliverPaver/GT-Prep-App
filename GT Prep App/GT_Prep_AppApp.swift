@@ -11,7 +11,7 @@ import SwiftUI
 struct GT_Prep_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuestionView(gtManagerVM: GTManagerVM())
         }
     }
 }
