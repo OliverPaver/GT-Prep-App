@@ -14,9 +14,13 @@
 		043A25C828764FBB00D02718 /* GT_Prep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25C728764FBB00D02718 /* GT_Prep_AppTests.swift */; };
 		043A25D228764FBB00D02718 /* GT_Prep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25D128764FBB00D02718 /* GT_Prep_AppUITests.swift */; };
 		043A25D428764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25D328764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift */; };
-		043A25E228764FDC00D02718 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25E128764FDC00D02718 /* TestModel.swift */; };
-		043A25E42876501000D02718 /* GTManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25E32876501000D02718 /* GTManagerVM.swift */; };
-		043A25F128766AF000D02718 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A25F028766AF000D02718 /* QuestionView.swift */; };
+		049AF09C28771A9200E6D9DB /* simSeq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049AF09B28771A9200E6D9DB /* simSeq.swift */; };
+		04C5E61D2877202E009A8DDC /* Choose4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E61C2877202E009A8DDC /* Choose4View.swift */; };
+		04C5E61F28772208009A8DDC /* Display4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E61E28772208009A8DDC /* Display4View.swift */; };
+		04C5E621287723D1009A8DDC /* SimSeq4QView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E620287723D1009A8DDC /* SimSeq4QView.swift */; };
+		04C5E62328772562009A8DDC /* TopLevelMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E62228772562009A8DDC /* TopLevelMenuView.swift */; };
+		04C5E62528772715009A8DDC /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E62428772715009A8DDC /* QuestionModel.swift */; };
+		04C5E6272877274C009A8DDC /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5E6262877274C009A8DDC /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +51,13 @@
 		043A25CD28764FBB00D02718 /* GT Prep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GT Prep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A25D128764FBB00D02718 /* GT_Prep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Prep_AppUITests.swift; sourceTree = "<group>"; };
 		043A25D328764FBB00D02718 /* GT_Prep_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Prep_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		043A25E128764FDC00D02718 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
-		043A25E32876501000D02718 /* GTManagerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTManagerVM.swift; sourceTree = "<group>"; };
-		043A25F028766AF000D02718 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		049AF09B28771A9200E6D9DB /* simSeq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simSeq.swift; sourceTree = "<group>"; };
+		04C5E61C2877202E009A8DDC /* Choose4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose4View.swift; sourceTree = "<group>"; };
+		04C5E61E28772208009A8DDC /* Display4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display4View.swift; sourceTree = "<group>"; };
+		04C5E620287723D1009A8DDC /* SimSeq4QView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimSeq4QView.swift; sourceTree = "<group>"; };
+		04C5E62228772562009A8DDC /* TopLevelMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLevelMenuView.swift; sourceTree = "<group>"; };
+		04C5E62428772715009A8DDC /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		04C5E6262877274C009A8DDC /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +146,8 @@
 		043A25E028764FC800D02718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				043A25E128764FDC00D02718 /* TestModel.swift */,
+				04C5E62428772715009A8DDC /* QuestionModel.swift */,
+				04C5E6262877274C009A8DDC /* SettingsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,7 +155,7 @@
 		043A25E62876503E00D02718 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				043A25E32876501000D02718 /* GTManagerVM.swift */,
+				049AF09B28771A9200E6D9DB /* simSeq.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -155,7 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				043A25B828764FB900D02718 /* ContentView.swift */,
-				043A25F028766AF000D02718 /* QuestionView.swift */,
+				04C5E620287723D1009A8DDC /* SimSeq4QView.swift */,
+				04C5E61E28772208009A8DDC /* Display4View.swift */,
+				04C5E61C2877202E009A8DDC /* Choose4View.swift */,
+				04C5E62228772562009A8DDC /* TopLevelMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,11 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043A25E228764FDC00D02718 /* TestModel.swift in Sources */,
-				043A25E42876501000D02718 /* GTManagerVM.swift in Sources */,
-				043A25F128766AF000D02718 /* QuestionView.swift in Sources */,
+				04C5E6272877274C009A8DDC /* SettingsModel.swift in Sources */,
+				049AF09C28771A9200E6D9DB /* simSeq.swift in Sources */,
+				04C5E61F28772208009A8DDC /* Display4View.swift in Sources */,
+				04C5E61D2877202E009A8DDC /* Choose4View.swift in Sources */,
+				04C5E62328772562009A8DDC /* TopLevelMenuView.swift in Sources */,
 				043A25B928764FB900D02718 /* ContentView.swift in Sources */,
+				04C5E62528772715009A8DDC /* QuestionModel.swift in Sources */,
 				043A25B728764FB900D02718 /* GT_Prep_AppApp.swift in Sources */,
+				04C5E621287723D1009A8DDC /* SimSeq4QView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

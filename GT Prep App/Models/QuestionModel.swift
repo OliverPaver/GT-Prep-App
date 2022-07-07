@@ -1,12 +1,12 @@
 //
-//  TestModel.swift
-//  FirstApp
+//  QuestionModel.swift
+//  GT Prep App
 //
-//  Created by Oliver Paver on 7/6/22.
+//  Created by Nigel C Paver on 7/7/22.
 //
 
 import Foundation
-import SwiftUI   
+import SwiftUI
 
 struct seqTest {
     var currentQIndex: Int
@@ -32,5 +32,3 @@ struct Answers {
     var prefix: String
     var ans : [String] = ["","","",""]
 }
-
-
